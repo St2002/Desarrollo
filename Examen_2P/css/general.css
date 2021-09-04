@@ -1,0 +1,422 @@
+/*Estilo para el cuerpo*/
+.primario{
+    width: 100%;
+    height: 300px;
+}
+
+/*Estilo para encabezo de la pagina*/
+
+/*naranja:  #ff8c00*/
+/*azul:  #000099*/
+/*blanco:  #fff*/
+header{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,140,0,1) 75%);
+}
+.redessociales{
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    width: 20%;
+}
+
+.redessociales a img{
+    display: inline-block;
+    margin: 1%;
+    width: 8%;
+}
+
+header img{
+    display: inline-block;
+    width: 10%;
+    height: 10%;
+    margin-left: 5%;
+    vertical-align: middle;
+}
+
+header > h1{
+    display: inline-block;
+    padding: 1%;
+    margin: 0px;
+    width: 60%;
+    vertical-align: middle;
+    color: #ff8c00;
+    font-family: "forte" !important;
+    font-size: 3rem;
+    text-align: left;
+}
+
+.bar{
+    background-color: #ff8c00;  
+    text-align: center;
+}
+
+.bar a{
+    display: inline-block;
+    padding: 1% 9% 1%;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: b;
+    text-decoration: none;
+    transition-duration: 1s;
+    transition-property: color,background-color;
+}
+
+.bar a:hover{
+    color: #ff8c00;
+    background-color: #fff;
+}
+
+.portad{
+    width: 100%;
+}
+
+/*Estilo para pie de pagina*/
+
+footer{
+    width: 100%;
+    height: 120%;
+    background: #6a6a6a ;
+    color: black; 
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna1{
+    max-width: 400px;
+}
+
+.columna1 h1{
+    font-size: 150%;
+}
+
+.columna1 p{
+    font-size: 14px;
+    color: black;
+    margin-top: 20px;
+    text-align: justify-all;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row,.pie2{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2,.pie2{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140;
+
+}
+
+.columna1 label{
+    font-size: 100%;
+}
+
+.container-footer{
+    width: 100%;
+    background: #101010;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    color:#c7c7c7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+}
+
+.terminos a{
+    text-decoration: none;
+    color:#fff;
+}
+
+/*fin de pie de pag : footer*/
+
+
+main h1:nth-child(even){
+    color: #ff8c00;
+}
+
+table{
+    margin-left: 10%;
+    border: 2px solid #ff8c00;
+}
+
+table{
+    width: 75%;
+    margin-bottom: 5%;
+}
+
+table th{
+    height: 3rem;
+}
+
+table td{
+    height: 2rem;
+}
+
+table tr:nth-child(even){
+    background-color: rgba(255,140,0,.2);
+}
+
+table tr:nth-child(odd){
+    background-color: rgba(255,140,0,.5);
+}
+
+table tr:first-child{
+    background-color: #ff8c00;
+    color: #fff;
+}
+
+main article{
+    background-color: #ff8c00;
+}
+
+.cont{
+    color: #ff8c00;
+}
+
+main h2{
+    color: #fff;
+    margin-left: 5%;
+}
+
+main article summary{
+    color: #fff;
+    margin-left: 1%;
+    font-size: 1.2rem;
+}
+
+article nav{
+    background-color: #fff; 
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+}
+
+article nav li{
+    list-style: none;
+    display: inline-block;
+    width: 15%;
+}
+
+article nav a{
+    display: inline-block;
+    padding: 1% 9% 1%;
+    color: #ff8c00;
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: 1s;
+    transition-property: color,background-color;
+    height: 3rem;
+    vertical-align: top;
+    width: 70%;
+}
+
+article nav a:hover{
+    color: #fff;
+    background-color: #ff8c00;
+}
+
+article li ul li{
+    position: absolute;
+    display: none;
+    width: inherit;
+}
+
+article img{
+    width: 10rem;
+    margin-left: -1rem;
+}
+
+article li:hover ul li{
+    display: block;
+}
+
+/*Termina*/
+
+
+
+
+/*Segundo esitlo para la galeria*/
+
+.padre{
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #085394;
+    text-align: justify;
+}
+
+.tercero{
+	text-align: center;
+	color: #fff;
+}
+
+.cuarto{
+    margin: 2%;
+	color: #fff;
+}
+
+section article{
+    float: left;
+    margin-bottom: 1%;
+}
+
+section article:nth-of-type(odd){
+    background-color: #0000cc;
+}
+
+section article:nth-of-type(even){
+    background-color: #ff8c00;
+}
+
+/*Termina estilo de galeria*/
+
+
+/*Estilo para formulario*/
+
+.formulario{
+    background-image:url(../imagen/consecionario.jpg) ;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+form{
+    width: 700px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: monospace;
+
+}
+
+.tema{
+
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+label{
+    color: #fff;
+    font-size: 20px;
+    width: 200px;
+
+}
+
+legend, input, textarea{
+
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea{
+    min-height: 200px;
+    max-height: 300px;
+    max-width: 100%;
+}
+
+.boton{
+    background: #31384A;
+    color: #fffff;
+    padding: 20px;
+}
+
+.boton:hover{
+    cursor: pointer;
+}
+/*Termina estilo formulario*/
+
+
+/*slider*/
+
+.slider{
+    width: 70%;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: inline-flex;
+    padding: 0;
+    width: 500%;
+    animation: cambio 20s infinite alternate linear;
+}
+
+.slider li{
+    width: 500%;
+    list-style: none;
+    border: 3px solid #00ff00;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+@keyframes cambio{
+    0%{ margin-left: 0; }
+    18%{ margin-left: 0; }
+
+    22%{ margin-left: -100%; }
+    40%{ margin-left: -100%; }
+
+    44%{ margin-left: -200%; }
+    62%{ margin-left: -200%;}
+
+    66%{ margin-left: -300%; }
+    84%{ margin-left: -300%; }
+
+    88%{ margin-left: -400%; }
+    100%{ margin-left: -400%; }
+
+}
+
