@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<!-- CSS only -->
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+	<!-------------------------------------------------------------------------------------PESTAÑA----------------------------------------------------->
+	<link rel="shortcut icon" href="img/logo.png" />
+	<title>LDU - UPSE</title>
+</head>
+
+<body>
+	<!-------------------------------------------------------------------------------------------------ENCABEZADO------------------------------------------->
+	<header class="container-fluid">
+
+		<section class="row">
+			<img class="logo col-lg-2 d-none d-lg-block" src="img/logo.png" alt="Logo">
+			<h1 class="col-lg-8 d-none d-lg-block">LIGA DEPORTIVA UNIVERSITARIA<br>UPSE</h1>
+			<section class="redessociales col-lg-2 d-none d-lg-block">
+				<a href="https://www.facebook.com/lduupse/?hc_ref=ARS5sio2379Rw8BAx3CioT4yGFZ2oX4BXm2SbPAWRFMk_Pjbc9xhP2vCWaTgy0xbubo&fref=nf&__tn__=kC-R" target="_blank"><i class="bi bi-envelope-fill"></i></a>
+				<a href="https://www.facebook.com/lduupse/?hc_ref=ARS5sio2379Rw8BAx3CioT4yGFZ2oX4BXm2SbPAWRFMk_Pjbc9xhP2vCWaTgy0xbubo&fref=nf&__tn__=kC-R" target="_blank"><i class="bi bi-youtube"></i></a>
+				<a href="https://www.facebook.com/lduupse/?hc_ref=ARS5sio2379Rw8BAx3CioT4yGFZ2oX4BXm2SbPAWRFMk_Pjbc9xhP2vCWaTgy0xbubo&fref=nf&__tn__=kC-R" target="_blank"><i class="bi bi-twitter"></i></a>
+				<a href="https://www.facebook.com/lduupse/?hc_ref=ARS5sio2379Rw8BAx3CioT4yGFZ2oX4BXm2SbPAWRFMk_Pjbc9xhP2vCWaTgy0xbubo&fref=nf&__tn__=kC-R" target="_blank"><i class="bi bi-facebook"></i></a>
+			</section>
+		</section>
+
+		<nav class="navbar navbar-expand-lg bg-light nav-fill">
+			<a class="navbar-brand d-block d-lg-none mb-0 h1" style="width: 75%;font-size: 3em;" href="index.html">
+				<img src="img/logo.png" class="img-fluid d-none d-sm-inline-block" style="width: 15%;margin-right: 1%;" alt="Logo">Liga Deportiva UPSE
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<i id="toggle" class="bi bi-list" onclick="changeClass('toggle')"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav m-auto">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Noticias.html">Noticias</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="Competencias.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Competencias</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="Futbol.html">Futbool</a></li>
+							<li><a class="dropdown-item" href="Basquet.html">Basquet</a></li>
+							<li><a class="dropdown-item" href="Indor.html">Indor</a></li>
+							<li><a class="dropdown-item" href="Otros.html">Otros</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="TablaPosicion.html">Tabla de posiciones</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Logros.html">Logros</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="nosotros.html">Nosotros</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="formulario.html">Inscripcion</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.upse.edu.ec/" target="_blank">UPSE</a> 
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<!---------------------------------------------------------------------cuerpo--------------------------------------------------------------------------->
+	<body>
+		<!---------------------------------------------------------------------------NOTICIAS DESTACADAS------------------------------------------>
+		<div class="container-fluid destacado NoticiasDestacadas">
+			<h2>Noticias destacadas</h2>
+			<section class="row">
+				<!-- Carousel wrapper -->
+				<div id="carouselBasicExample" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
+					<!-- Inner -->
+					<div class="carousel-inner py-4">
+						<!-- Single item -->
+						<div class="carousel-item active">
+							<div class="container">
+								<div class="row">
+									<div class="tarjeta col-lg-4">
+										<div class="card">
+											<img src="img/logo.jpg" class="card-img-top" alt="..."/>
+											<div class="card-body">
+												<h5 class="card-title">Titulo Noticia</h5>
+												<p class="card-text">
+													Una peuqla descripcio de la noticia y algo mas, (texto de relleno no mirar)
+												</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="tarjeta col-lg-4 d-none d-lg-block">
+										<div class="card">
+											<img src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/69073595_696817484078542_8578720217641779200_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=973b4a&_nc_ohc=daGClvX9O9AAX8GCtLr&_nc_ht=scontent.fgye18-1.fna&oh=c7cfe01b45d49e0add8c7f2ce8930de8&oe=616456DA" class="card-img-top" alt="..." />
+											<div class="card-body">
+												<h5 class="card-title">Titulo Noticia</h5>
+												<p class="card-text">
+													Una peuqla descripcio de la noticia y algo mas, (texto de relleno no mirar)
+												</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="tarjeta col-lg-4 d-none d-lg-block">
+										<div class="card">
+											<img src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/229152090_1212748155818803_3823900223010307716_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=973b4a&_nc_ohc=Myrdwhxn_38AX-KLYEr&_nc_ht=scontent.fgye18-1.fna&oh=7aee8c839f823ea488576c57b3831e59&oe=616597C2" class="card-img-top" alt="..." />
+											<div class="card-body">
+												<h5 class="card-title">Titulo Noticia</h5>
+												<p class="card-text">
+													Una peuqla descripcio de la noticia y algo mas, (texto de relleno no mirar)
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Single item -->
+						<div class="carousel-item">
+							<div class="container">
+								<div class="row">
+									<div class="tarjeta col-lg-4 col-md-12">
+										<div class="card">
+											<img src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/228414807_1212748042485481_6056924692727837786_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=973b4a&_nc_ohc=fld0KjP-Xd8AX_p-ZaN&_nc_ht=scontent.fgye18-1.fna&oh=9891adfbf304d7ad0bfac8274cc1e70e&oe=61637D58" class="card-img-top" alt="..." />
+											<div class="card-body">
+												<h5 class="card-title">Titulo Noticia</h5>
+												<p class="card-text">
+													Una peuqla descripcio de la noticia y algo mas, (texto de relleno no mirar)
+												</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="tarjeta col-lg-4 d-none d-lg-block">
+										<div class="card">
+											<img src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/200090588_1183618952065057_6038370599561853884_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=973b4a&_nc_ohc=vIfFFVAbD5MAX9dyKT-&_nc_ht=scontent.fgye18-1.fna&oh=dedbeeb5155d3c351f783ee961de7520&oe=6162A706" class="card-img-top" alt="..." />
+											<div class="card-body">
+												<h5 class="card-title">Titulo Noticia</h5>
+												<p class="card-text">
+													Una peuqla descripcio de la noticia y algo mas, (texto de relleno no mirar)
+												</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="tarjeta col-lg-4 d-none d-lg-block">
+										<div class="card">
+											<img src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/200698189_1183618708731748_1421864379086659792_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=973b4a&_nc_ohc=fP1TuAHF9VAAX85Ty9J&_nc_ht=scontent.fgye18-1.fna&oh=67cb41e3d97ee03b5de242a769783378&oe=61654E34" class="card-img-top" alt="..." />
+											<div class="card-body">
+												<h5 class="card-title">Titulo Noticia</h5>
+												<p class="card-text">
+													Una peuqla descripcio de la noticia y algo mas, (texto de relleno no mirar)
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Single item -->
+						<div class="carousel-item">
+							<div class="container">
+								<div class="row">
+									<div class="tarjeta col-lg-4 col-md-12 mb-4 mb-lg-0">
+										<div class="card">
+											<img src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/200312020_1183617912065161_2659339713795282656_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=973b4a&_nc_ohc=kywaLXKRRFQAX8RTrZa&_nc_ht=scontent.fgye18-1.fna&oh=0388e0e83ee1a21958e1b80b5abf0135&oe=61643698" class="card-img-top" alt="..." />
+											<div class="card-body">
+												<h5 class="card-title">Titulo Noticia</h5>
+												<p class="card-text">
+													Una peuqla descripcio de la noticia y algo mas, (texto de relleno no mirar)
+												</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="tarjeta col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+										<div class="card">
+											<img src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/165175333_1130181334075486_7184231758545447255_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=f79oibko54YAX86nH9G&_nc_ht=scontent.fgye18-1.fna&oh=654bd3f53526e7e1266e7e607cc37b6b&oe=6164C08D" class="card-img-top" alt="..."/>
+											<div class="card-body">
+												<h5 class="card-title">Titulo Noticia</h5>
+												<p class="card-text">
+													Una peuqla descripcio de la noticia y algo mas, (texto de relleno no mirar)
+												</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="tarjeta col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+										<div class="card">
+											<img src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/164338721_1130181504075469_7247117113957268_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=5QOuhB3UHXwAX_7EwaA&_nc_ht=scontent.fgye18-1.fna&oh=6edd6a5942dbd08d2fc1b8bdf406186f&oe=616584DB" class="card-img-top" alt="..."/>
+											<div class="card-body">
+												<h5 class="card-title">Titulo Noticia</h5>
+												<p class="card-text">
+													Una peuqla descripcio de la noticia y algo mas, (texto de relleno no mirar)
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<!-- Inner -->
+
+					<!-- Controles -->
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselBasicExample" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselBasicExample" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</section>
+		</div>
+
+		<!-----------------------------------------------------------------------------------ULTIMAS NOTICIAS----------------------------------------------------->
+		<div class="container-fluid otros">
+			<h2>Ultimas Noticias</h2>
+			<div class="row">				
+				<div class="col-lg-4">
+					<div class="card">
+						<img class="card-img-top" src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/229152090_1212748155818803_3823900223010307716_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=973b4a&_nc_ohc=Myrdwhxn_38AX-KLYEr&_nc_ht=scontent.fgye18-1.fna&oh=7aee8c839f823ea488576c57b3831e59&oe=616597C2" alt="">
+						<div class="card-body">
+							<h5 class="card-title text-center">Titulo de Noticia</h5>
+							<p class="card-text">
+								El fútbol es un deporte jugado en un campo rectangular con dos porterías entre dos equipos de once jugadores cada uno con una pelota esférica, la cual debe ser pateada. Es el más practicado y más popular entre los espectadores, con un seguimiento de unos 4 mil millones de aficionados. El objetivo del juego es introducir el balón el mayor número posible de veces en la portería del contrario, esto se llama marcación de un gol, el equipo vencedor es el que consiga introducir más goles.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card">
+						<img class="card-img-top" src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/230822492_1212748079152144_1742781538833608556_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=973b4a&_nc_ohc=l4ynf5MxdhMAX-GDZ6s&_nc_ht=scontent.fgye18-1.fna&oh=fb0d88c940e4c4fd692342386784419c&oe=6163D9F9" alt="">
+						<div class="card-body">
+							<h5 class="card-title text-center">Titulo de Noticia</h5>
+							<p class="card-text">
+								El fútbol es un deporte jugado en un campo rectangular con dos porterías entre dos equipos de once jugadores cada uno con una pelota esférica, la cual debe ser pateada. Es el más practicado y más popular entre los espectadores, con un seguimiento de unos 4 mil millones de aficionados. El objetivo del juego es introducir el balón el mayor número posible de veces en la portería del contrario, esto se llama marcación de un gol, el equipo vencedor es el que consiga introducir más goles.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card">
+						<img class="card-img-top" src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/200090588_1183618952065057_6038370599561853884_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=973b4a&_nc_ohc=vIfFFVAbD5MAX9dyKT-&_nc_ht=scontent.fgye18-1.fna&oh=dedbeeb5155d3c351f783ee961de7520&oe=6162A706" alt="">
+						<div class="card-body">
+							<h5 class="card-title text-center">Titulo de Noticia</h5>
+							<p class="card-text">
+								El fútbol es un deporte jugado en un campo rectangular con dos porterías entre dos equipos de once jugadores cada uno con una pelota esférica, la cual debe ser pateada. Es el más practicado y más popular entre los espectadores, con un seguimiento de unos 4 mil millones de aficionados. El objetivo del juego es introducir el balón el mayor número posible de veces en la portería del contrario, esto se llama marcación de un gol, el equipo vencedor es el que consiga introducir más goles.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card">
+						<img class="card-img-top" src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/200698189_1183618708731748_1421864379086659792_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=973b4a&_nc_ohc=fP1TuAHF9VAAX85Ty9J&_nc_ht=scontent.fgye18-1.fna&oh=67cb41e3d97ee03b5de242a769783378&oe=61654E34" alt="">
+						<div class="card-body">
+							<h5 class="card-title text-center">Titulo de Noticia</h5>
+							<p class="card-text">
+								El fútbol es un deporte jugado en un campo rectangular con dos porterías entre dos equipos de once jugadores cada uno con una pelota esférica, la cual debe ser pateada. Es el más practicado y más popular entre los espectadores, con un seguimiento de unos 4 mil millones de aficionados. El objetivo del juego es introducir el balón el mayor número posible de veces en la portería del contrario, esto se llama marcación de un gol, el equipo vencedor es el que consiga introducir más goles.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card">
+						<img class="card-img-top" src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/199586169_1183618635398422_3241727780803561613_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=973b4a&_nc_ohc=Tp6YGditV0gAX8IBjdK&_nc_oc=AQmSaGaT24dZ0maDNtLDu1eRFkVDj9Zz8whXJQv40YkxKAVJtbXD7uFMSDadsAMC5Kk&_nc_ht=scontent.fgye18-1.fna&oh=c287124063bdb801cda46ab47e579965&oe=61660414" alt="">
+						<div class="card-body">
+							<h5 class="card-title text-center">Titulo de Noticia</h5>
+							<p class="card-text">
+								El fútbol es un deporte jugado en un campo rectangular con dos porterías entre dos equipos de once jugadores cada uno con una pelota esférica, la cual debe ser pateada. Es el más practicado y más popular entre los espectadores, con un seguimiento de unos 4 mil millones de aficionados. El objetivo del juego es introducir el balón el mayor número posible de veces en la portería del contrario, esto se llama marcación de un gol, el equipo vencedor es el que consiga introducir más goles.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card">
+						<img class="card-img-top" src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/200534820_1183618292065123_690418554933007529_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=973b4a&_nc_ohc=FN94dEZO6a0AX9ldArp&_nc_oc=AQkcllGeHyy0dGXT20Ovh2__VzDxM7DDAkHSPJYPDImMNTovhmQ1Ax9iWawiKLk51s0&_nc_ht=scontent.fgye18-1.fna&oh=19ce2bf23dd1f3a82250316a51173c85&oe=6164D69D" alt="">
+						<div class="card-body">
+							<h5 class="card-title text-center">Titulo de Noticia</h5>
+							<p class="card-text">
+								El fútbol es un deporte jugado en un campo rectangular con dos porterías entre dos equipos de once jugadores cada uno con una pelota esférica, la cual debe ser pateada. Es el más practicado y más popular entre los espectadores, con un seguimiento de unos 4 mil millones de aficionados. El objetivo del juego es introducir el balón el mayor número posible de veces en la portería del contrario, esto se llama marcación de un gol, el equipo vencedor es el que consiga introducir más goles.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!------------------------------------------------------------------------------IMAGEN FRASE------------------------------------------------------->
+		<div class="imagenFrase">
+			<h5>"*Insert frase motivadora*"</h5>
+		</div>
+		<!---------------------------------------------------------------------------OTROS--------------------------------------------------------------------------->
+		<div class="container-fluid otros">
+			<h2>Otros</h2>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="card flex-row"> 
+						<img src="img/logo.png" class="card-img-left">
+						<div class="card-body">
+							<h5 class="card-title">Titulo</h5>
+							<p class="card-text">
+								El fútbol es un deporte jugado en un campo rectangular con dos porterías entre dos equipos de once jugadores cada uno con una pelota esférica, la cual debe ser pateada. Es el más practicado y más popular entre los espectadores.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card flex-row"> 
+						<img src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/201029235_1183618265398459_7040568054972817269_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=-dnQqsgL7E8AX9bRN7j&_nc_ht=scontent.fgye18-1.fna&oh=3ca8222a1c4a3400f4acd7a73f1dc11e&oe=61642368" class="card-img-left">
+						<div class="card-body">
+							<h5 class="card-title">Titulo</h5>
+							<p class="card-text">
+								El fútbol es un deporte jugado en un campo rectangular con dos porterías entre dos equipos de once jugadores cada uno con una pelota esférica, la cual debe ser pateada. Es el más practicado y más popular entre los espectadores.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card flex-row">
+						<img src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/201638764_1183618238731795_7546529114837567253_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=HPpVYGZM1LkAX9IWYfv&_nc_ht=scontent.fgye18-1.fna&oh=72f94771b1927c6bd8a523d187e8f1dc&oe=616477BD" class="card-img-left">
+						<div class="card-body">
+							<h5 class="card-title">Titulo</h5>
+							<p class="card-text">
+								El fútbol es un deporte jugado en un campo rectangular con dos porterías entre dos equipos de once jugadores cada uno con una pelota esférica, la cual debe ser pateada. Es el más practicado y más popular entre los espectadores. 
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card flex-row">
+						<img src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/203472908_1183618185398467_5864858187499331993_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=mLnu1I_B-EUAX9xj7mY&_nc_ht=scontent.fgye18-1.fna&oh=a5bd9329dd552a51de739d8499925e0f&oe=616462E0" class="card-img-left">
+						<div class="card-body">
+							<h5 class="card-title">Titulo</h5>
+							<p class="card-text">
+								El fútbol es un deporte jugado en un campo rectangular con dos porterías entre dos equipos de once jugadores cada uno con una pelota esférica, la cual debe ser pateada. Es el más practicado y más popular entre los espectadores.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card flex-row">
+						<img src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/200230637_1183618138731805_2817520519023127112_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=oE_qHjhgsgwAX-In9Qh&_nc_ht=scontent.fgye18-1.fna&oh=eaa516253bc5d6f9a08e63d803e7797f&oe=616330B7" class="card-img-left">
+						<div class="card-body">
+							<h5 class="card-title">Titulo</h5>
+							<p class="card-text">
+								El fútbol es un deporte jugado en un campo rectangular con dos porterías entre dos equipos de once jugadores cada uno con una pelota esférica, la cual debe ser pateada. Es el más practicado y más popular entre los espectadores.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card flex-row">
+						<img src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/200504793_1183618088731810_7793748499189914516_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=g_ZaLPZV4CYAX8kMBYK&_nc_ht=scontent.fgye18-1.fna&oh=196dacc791d902c5315f7d27d8b041d9&oe=6163A11E" class="card-img-left">
+						<div class="card-body">
+							<h5 class="card-title">Titulo</h5>
+							<p class="card-text">
+								El fútbol es un deporte jugado en un campo rectangular con dos porterías entre dos equipos de once jugadores cada uno con una pelota esférica, la cual debe ser pateada. Es el más practicado y más popular entre los espectadores.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card flex-row">
+						<img src="https://scontent.fgye18-1.fna.fbcdn.net/v/t1.6435-9/200534996_1183618032065149_3735760726141254565_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=_lNCrAZVzPUAX-msSmM&_nc_ht=scontent.fgye18-1.fna&oh=3da4fefc9be61711040ed70ad5dfba72&oe=61634A86" class="card-img-left">
+						<div class="card-body">
+							<h5 class="card-title">Titulo</h5>
+							<p class="card-text">
+								El fútbol es un deporte jugado en un campo rectangular con dos porterías entre dos equipos de once jugadores cada uno con una pelota esférica, la cual debe ser pateada. Es el más practicado y más popular entre los espectadores.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card flex-row">
+						<img src="img/logo.png" class="card-img-left">
+						<div class="card-body">
+							<h5 class="card-title">Titulo</h5>
+							<p class="card-text">
+								El fútbol es un deporte jugado en un campo rectangular con dos porterías entre dos equipos de once jugadores cada uno con una pelota esférica, la cual debe ser pateada. Es el más practicado y más popular entre los espectadores.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card flex-row">
+						<img src="img/logo.png" class="card-img-left">
+						<div class="card-body">
+							<h5 class="card-title">Titulo</h5>
+							<p class="card-text">
+								El fútbol es un deporte jugado en un campo rectangular con dos porterías entre dos equipos de once jugadores cada uno con una pelota esférica, la cual debe ser pateada. Es el más practicado y más popular entre los espectadores.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card flex-row">
+						<img src="img/logo.png" class="card-img-left">
+						<div class="card-body">
+							<h5 class="card-title">Titulo</h5>
+							<p class="card-text">
+								El fútbol es un deporte jugado en un campo rectangular con dos porterías entre dos equipos de once jugadores cada uno con una pelota esférica, la cual debe ser pateada. Es el más practicado y más popular entre los espectadores.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<!-------------------------------------------------------------------------------------pie de pagina----------------------------------------------------->
+	<footer class="container-fluid">
+
+		<section class="row">
+			<ul class="col-lg-3 d-lg-inline-block">
+				<li>Competencias</li>
+				<li><a href="Futbol.html">Futbol</a></li>
+				<li><a href="Basquet.html">Basquet</a></li>
+				<li><a href="Indor.html">Indor</a></li>
+				<li><a href="Otros.html">Otros</a></li>
+			</ul>
+			<ul class="col-lg-3 d-lg-inline-block">
+				<li>Explorar</li>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="Noticias.html">Noticias</a></li>
+				<li><a href="TablaPosicion.html">Tabla de posiciones</a></li>
+				<li><a href="Logros.html">Logros</a></li>
+			</ul>
+			<ul class="col-lg-3 d-lg-inline-block">
+				<li>Visite Tambien</li>
+				<li><a href="formulario.html">Inscripciones</a></li>
+				<li><a href="nosotros.html">Nosotros</a></li>
+				<li><a href="https://www.upse.edu.ec/" target="_blank">UPSE</a></li>
+			</ul>
+
+			<section class="redessociales col-lg-3 d-lg-block">
+				<a href="https://www.facebook.com/lduupse/?hc_ref=ARS5sio2379Rw8BAx3CioT4yGFZ2oX4BXm2SbPAWRFMk_Pjbc9xhP2vCWaTgy0xbubo&fref=nf&__tn__=kC-R" target="_blank"><i class="bi bi-envelope-fill"></i></a>
+				<a href="https://www.facebook.com/lduupse/?hc_ref=ARS5sio2379Rw8BAx3CioT4yGFZ2oX4BXm2SbPAWRFMk_Pjbc9xhP2vCWaTgy0xbubo&fref=nf&__tn__=kC-R" target="_blank"><i class="bi bi-youtube"></i></a>
+				<a href="https://www.facebook.com/lduupse/?hc_ref=ARS5sio2379Rw8BAx3CioT4yGFZ2oX4BXm2SbPAWRFMk_Pjbc9xhP2vCWaTgy0xbubo&fref=nf&__tn__=kC-R" target="_blank"><i class="bi bi-twitter"></i></a>
+				<a href="https://www.facebook.com/lduupse/?hc_ref=ARS5sio2379Rw8BAx3CioT4yGFZ2oX4BXm2SbPAWRFMk_Pjbc9xhP2vCWaTgy0xbubo&fref=nf&__tn__=kC-R" target="_blank"><i class="bi bi-facebook"></i></a>
+			</section>
+
+			<section class="Terminos_Condiciones">
+				<ul>
+					<li><a href="#">Politicas de privacidad</a></li>
+					<li><a href="#">Terminos y Condiciones</a></li>
+					<li><a href="#">Politicas de cokkies</a></li>
+					<li><a href="#">Avisos Legales</a></li>
+				</ul>
+			</section>
+			
+			<section class="Derechos_Reservados">
+				<p>(R) TODOS LOS DEREHOS RESERVADOS. ESTA PAGINA FUE HECHA EN LENGUAJE HTML</p>
+			</section>
+		</section>
+	</footer>
+	<!-- JavaScript Bundle with Popper -->
+	<script type="text/javascript" src="js/js.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</body>
+</html>

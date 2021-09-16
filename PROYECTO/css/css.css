@@ -1,0 +1,342 @@
+header{
+	background-color: #085394;
+}
+
+.logo{
+	width: 12% !important;
+	height: 12% !important;
+	margin: auto !important;
+	align-content: center;
+}
+
+h1{
+	display: inline-block;
+	color: #ffffff;
+	font-family: "Times New Roman";
+	margin: 2% auto !important;
+}
+
+.a{
+	display: block;
+	width: 100%;
+}
+
+nav{
+	padding: 0px !important;
+}
+
+span.bar{
+	display: block;
+  height: 3px;
+  background: #0d0;
+}
+
+li.nav-item{
+	padding:0vw 2vw;
+	text-align: center;
+	align-content: center;
+	font-weight: bold;
+}
+
+.dropdown-item{
+	color: #085394 !important;
+	font-weight: bold;
+}
+
+.redessociales i{
+	color: #fff;
+	font-size: 150% ;
+	float: right;
+	margin-left:5%;
+	margin-right: 2%;
+	margin-top: 0px;
+}
+
+.navbar-toggler{
+	padding: 0% !important;
+	background-color: #085394 !important;
+}
+
+.bi{
+	margin: 10% auto;
+	font-size: 250%;
+}
+
+.bi-list{
+	color: #0d0;
+}
+
+.bi-x{
+	color: #fff;
+}
+
+.Terminos_Condiciones{
+	display: block;
+	background-color: #fff;
+	text-align: center;
+}
+
+.Terminos_Condiciones ul{
+	margin: 0px;
+}
+
+.Terminos_Condiciones li{
+	display: inline-block;
+	list-style-type: none;
+	margin: 0px 1%;
+}
+
+.Derechos_Reservados{
+	display: block;
+	background-color: #085394;
+	text-align: center;
+	color: #fff;
+}
+
+.Derechos_Reservados p{
+	margin: 0px;
+}
+
+footer > section > ul{
+	list-style: none;
+	text-decoration: none;
+	padding: 1% 0% 5%;
+}
+
+footer > section > ul > li:first-child{
+	color: #000094;
+	font-size: 125%;
+}
+
+footer > section > ul > li > a{
+	color: #fff;
+	padding-left: 10%;
+}
+
+footer section{
+	background-color: #009900;
+}
+
+.Tabla_de_posiciones h3{
+	font-size: 1.4rem;
+	color: #00dd00;
+}
+
+table{
+	width: 40% !important;
+	margin: 0% 5%;
+}
+
+table img{
+	width: 1.6rem;
+}
+
+.Tablade_posiciones h3{
+	font-size: 1.4rem;
+	color: #085394;
+}
+
+#carouselExampleCaptions .carousel-caption{
+	background-color: rgba(255, 255, 255, .3);
+}
+
+.Proximos_partidos article table tr th{
+	background-color: #fff;
+	color: #009900;
+	font-style: bold;
+	border: 2px solid #085394;
+}
+
+.Proximos_partidos article table tr td{
+	background-color: #085394;
+	color: #fff;
+	border: 2px solid #009900;
+}
+
+.Proximos_partidos article table tr td:first-child{
+	background-color: #009900;
+	border: 2px solid #009900;
+}
+
+.destacado .carousel-inner > .carousel-item:nth-child(odd) .row > .tarjeta:nth-child(odd) .card,
+.destacado .carousel-inner > .carousel-item:nth-child(even) .row > .tarjeta:nth-child(even) .card{
+	border: 2px solid #085394;
+}
+
+.destacado .carousel-inner > .carousel-item:nth-child(odd) .row > .tarjeta:nth-child(even) .card,
+.destacado .carousel-inner > .carousel-item:nth-child(even) .row > .tarjeta:nth-child(odd) .card{
+	border: 2px solid #009900;
+	background-color: #009900;
+	color: white;
+}
+
+.personal .card-img-left{
+	width: 30%;
+}
+
+.card-img-left{
+	width: 30%;
+	align-self: center;
+}
+
+.card{
+	margin-bottom: 5%;
+}
+
+.otros .card:hover{
+	background-color: #090;
+	color: #fff;
+}
+
+.blanco .card{
+	background-color: #085394;
+	color: #fff;
+}
+
+.nosotros div:first-child > div > section{
+	background-color: #4da8cf;
+	border-radius: 15px;
+	padding: 2%;
+	margin: 2%;
+}
+
+.nosotros div:first-child > div{
+	align-self: center;
+}
+
+.nosotros div:first-child h2{
+	font-family: "Times New Roman";
+	font-weight: bold;
+}
+
+.NoticiasDestacadas .carousel-inner > .carousel-item:nth-child(odd) .row > .tarjeta:nth-child(odd) .card,
+.NoticiasDestacadas .carousel-inner > .carousel-item:nth-child(even) .row > .tarjeta:nth-child(even) .card
+{
+	background-color: #085394;
+	color: #fff;
+}
+
+.imagenFrase{
+	background-image: url("../img/img5.jpg");
+	border-top: 2px solid #009900;
+	border-bottom: 2px solid #009900;
+	margin: 0px;
+	text-align: center;
+}
+
+body > div:nth-child(odd){
+	background-color: #085394;
+	border-top: 2px solid #009900;;
+}
+
+body > div:nth-child(even){
+	background-color: #fff;
+	border-top: 2px solid #085394;
+}
+
+body > div:nth-child(odd) > h2{
+	color: #fff;
+	padding: 1% 0% 0% 1%;
+}
+
+body > div:nth-child(even) > h2{
+	color: #009900;
+	padding: 1% 0% 0% 1%;
+}
+
+.formulario{
+	background-color: rgba(0, 0, 0, .5);
+	border-top: 2px solid #085394;
+	color: #fff;
+}
+
+.formulario h2{
+	color: #00ff00;
+	margin-left: 1%;
+}
+
+.formulario label,.formulario a{
+	padding-left: 10%;
+	padding-top: 2%;
+}
+
+.formulario a:hover{
+	color: #00ff00;
+}
+
+.formulario input,.formulario label select{
+	width: 90%;
+	height: 5vh;
+}
+
+#boton{
+	color: #085394;
+	background-color: #fff;
+	font-size: 150%;
+	font-weight: bold;
+	width: 100vw;
+	height: auto;
+}
+
+#boton:hover{
+	color: #fff;
+	background-color: #085394;
+}
+
+.formulario img{
+    position: fixed;
+    width: 97vw;
+    z-index: -1;
+    height: 100vh;
+    top: 0%;
+}
+
+.Futbol .tarjeta .card{
+	color: #fff;
+	background-color: #085394;
+}
+
+.Futbol .tarjeta .card:hover{
+	color: #fff;
+	background-color: #009900;
+}
+
+@media (max-width: 992px){
+	header{
+		background-color: #fff;
+	}
+	.navbar-brand{
+		font-family: "Times New Roman";
+		font-size: 4em;
+	}
+	.nav-link{
+		text-align: left;
+		font-size: 2em;	
+	}
+	.redessociales i{
+		font-size: 200% ;
+	}
+	footer > section > ul > li{
+		font-size: 120%;
+		padding-left: 15%;
+		margin-top: 4%;
+		font-weight: bold;
+	}
+	footer > section > ul > li:first-child{
+		font-size: 160%;
+		margin: 0%;
+		font-weight: bold;
+		padding-left: 10%;
+	}
+	table{
+		width: 90% !important;
+		margin: 0% 5%;
+	}
+	.formulario img{
+   		width: 94vw;
+	}
+	.dropdown-menu li a{
+		font-weight: bold;
+		font-size: 2em;
+	}
+}
